@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  
+}
+.root{
+  background-color: #222831;
+  color: white;
+}
+.Main_Container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  height: 100vh;
+  
+}
+.Weather_Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Weather_Container h1{
+  font-family: "Dongle", sans-serif;
+  font-size: 42px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Weather_Info{
+  background-color: #344C64;
+  border: 2px solid white;
+  border-radius: 20px;
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.Weather_Info form select {
+  font-family: "Dongle", sans-serif;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 7px; 
+}
+
+.Weather_Wrapper h2{
+  font-family: "Dongle", sans-serif;
+  text-align: center;
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+.Weather_Wrapper{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.Weather_Inner{
+  flex: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Weather_Img{
+  opacity: 0.7;
+  position: relative;
+  z-index: 0;
+}
+.Weather_Temp{
+  font-family: "Dongle", sans-serif;
+  position: relative;
+  left: -12px;
+  font-weight: 800;
+  font-size: 46px;
+  z-index: 10;
+}
+.Weather_Humodity{
+  font-family: "Dongle", sans-serif;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+}
